@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  padding: 20px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+.button-list {
+  display: flex;
+}
+
+.btn + .btn {
+  margin-left: 30px;
+}
+
+.btn {
+  padding: 30px 30px;
+  font-weight: bold;
+  border: 3px solid cornflowerblue;
+}
+
+#item-list {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+  align-items: center;
+  border: 3px solid cornflowerblue;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  margin: 2px;
+  padding: 20px;
+  font-size: 2rem;
+}
